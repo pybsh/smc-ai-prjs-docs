@@ -4,27 +4,36 @@
  * work well for content-centric websites.
  */
 
+ @font-face {
+  font-family: 'AritaBuri';
+  src: url('/fonts/Arita Buri KR/AritaBuriKR-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+ }
+
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #d97706; /* 주황색 */
+  --ifm-color-primary-dark: #c06205; /* 어두운 주황색 */
+  --ifm-color-primary-darker: #a85504; /* 더 어두운 주황색 */
+  --ifm-color-primary-darkest: #92400e; /* 가장 어두운 주황색 */
+  --ifm-color-primary-light: #f59e0b; /* 밝은 주황색 */
+  --ifm-color-primary-lighter: #fbbf24; /* 더 밝은 주황색 */
+  --ifm-color-primary-lightest: #fde68a; /* 가장 밝은 주황색 */
   --ifm-code-font-size: 95%;
+  --ifm-font-family-base: 'AritaBuri', sans-serif;
+  /* --ifm-font-family-monospace: 'AritaDotum', monospace; */
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #bb7c5e; /* 갈색 */
+  --ifm-color-primary-dark: #9e6b53; /* 어두운 갈색 */
+  --ifm-color-primary-darker: #815948; /* 더 어두운 갈색 */
+  --ifm-color-primary-darkest: #65453a; /* 가장 어두운 갈색 */
+  --ifm-color-primary-light: #d09476; /* 밝은 갈색 */
+  --ifm-color-primary-lighter: #e1b39c; /* 더 밝은 갈색 */
+  --ifm-color-primary-lightest: #f4d5c3; /* 가장 밝은 갈색 */
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
