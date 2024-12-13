@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'SaebungDocs',
+  title: 'smc-ai-prjs docs',
   tagline: '세명컴고 인공과 프로젝트 동아리 문서',
   favicon: 'img/favicon.ico',
 
@@ -22,7 +22,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'saebungproject', // Usually your GitHub org/user name.
+  organizationName: 'smc-ai-project', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -60,9 +60,9 @@ const config = {
     ({
       // Replace with your project's social card,
       navbar: {
-        title: 'SaebungDocs',
+        title: 's.a.p. docs',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Saebung Logo by KimJangHo',
           src: 'img/saebung.png',
         },
         items: [

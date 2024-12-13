@@ -5,11 +5,11 @@
  */
 
  @font-face {
-  font-family: 'AritaBuri';
-  src: url('/fonts/Arita Buri KR/AritaBuriKR-Medium.ttf') format('truetype');
+  font-family: 'Arita-buri-SemiBold';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Arita-buri-SemiBold.woff') format('woff');
   font-weight: normal;
   font-style: normal;
- }
+}
 
 /* You can override the default Infima variables here. */
 :root {
@@ -21,7 +21,7 @@
   --ifm-color-primary-lighter: #fbbf24; /* 더 밝은 주황색 */
   --ifm-color-primary-lightest: #fde68a; /* 가장 밝은 주황색 */
   --ifm-code-font-size: 95%;
-  --ifm-font-family-base: 'AritaBuri', sans-serif;
+  --ifm-font-family-base: 'Arita-buri-SemiBold', sans-serif;
   /* --ifm-font-family-monospace: 'AritaDotum', monospace; */
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
