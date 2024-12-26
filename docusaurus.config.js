@@ -60,7 +60,7 @@ const config = {
     ({
       // Replace with your project's social card,
       navbar: {
-        title: 's.a.p. docs',
+        title: 'smc-ai-prjs docs',
         logo: {
           alt: 'Saebung Logo by KimJangHo',
           src: 'img/saebung.png',
